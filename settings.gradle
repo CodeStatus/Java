@@ -1,0 +1,4 @@
+rootProject.name = 'CodeStatus_Java'
+include 'CodeStatus_Resources'
+include 'CodeStatus_Commons'
+

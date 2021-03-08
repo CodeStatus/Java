@@ -1,0 +1,8 @@
+group 'org.codestatus.commons'
+version 'CS_JAVA_0001'
+
+
+
+dependencies {
+    compile project(':CodeStatus_Resources')
+}
