@@ -4,7 +4,7 @@ import spock.lang.Shared
 import spock.lang.Specification
 
 class CodeStatusAdditionSpec extends Specification{
-    
+
     def codeStatusAddition = new CodeStatusAddition()
 
     def 'addIntegerTest_01' (){
