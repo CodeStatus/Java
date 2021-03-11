@@ -5,6 +5,7 @@ import spock.lang.Specification
 
 class CodeStatusAdditionSpec extends Specification{
 
+
     @Shared
     def codeStatusAddition = new CodeStatusAddition()
 
@@ -51,8 +52,8 @@ class CodeStatusAdditionSpec extends Specification{
 
         where:
 
-        num1 << [20, 45.90, 99]
-        num2 << [45, 35.75, 45.99]
+        num1   << [20, 45.90, 99]
+        num2   << [45, 35.75, 45.99]
         result << [65, 81.65, 144.99]
     }
 }
