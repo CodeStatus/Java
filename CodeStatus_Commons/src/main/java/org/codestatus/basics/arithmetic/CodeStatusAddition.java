@@ -13,14 +13,14 @@ public class CodeStatusAddition {
 
     public int addNumbers(int iNum1, int iNum2){
 
-        logger.debug("Adding int variables :: ");
+        logger.debug("Adding int variables :: {} & {}",iNum1, iNum2);
 
         return (iNum1 + iNum2);
     }
 
     public double addNumbers(double dNum1, double dNum2){
 
-        logger.debug("Adding double variables :: ");
+        logger.debug("Adding double variables :: {} & {} ", dNum1, dNum2);
 
         return (dNum1 + dNum2);
     }
